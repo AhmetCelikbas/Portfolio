@@ -29,7 +29,11 @@ h1, h2, h3, strong {
 fieldset {
   background:  white;
   padding: 1em;
-  border: 2px solid #69c;
+  border: 2px solid #e81c4f;
+}
+
+hr {
+  border: 1px solid #e81c4f;
 }
 
 a {
@@ -52,7 +56,7 @@ a:hover {
 
 #navbar {
   position: fixed;
-  top: 0px;
+  top: 10px;
   width: 100%;
 }
 
@@ -60,9 +64,23 @@ a:hover {
   margin: 0 auto;
 }
 
+#navbar a {
+  background:  #e81c4f;
+  color: white;
+}
+
+#navbar a:hover {
+  background: white;
+  color: #e81c4f;
+}
+
+
+
+
 #titre {
   text-align: center;
   color: white;
+  margin-top: 2em;
 }
 
 #titre a {
