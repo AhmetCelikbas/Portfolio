@@ -55,6 +55,23 @@ a:hover {
   color: white;
 }
 
-table.navbar {
+#navbar {
+  margin-bottom: 5em;
+}
+
+#navbar table {
   margin: 0 auto;
+}
+
+#titre {
+  margin: 0 auto;
+}
+
+a.nom {
+  font-size: 3em;
+}
+
+a:hover {
+  background:  #e81c4f;
+  color: white;
 }
