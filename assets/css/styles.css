@@ -68,6 +68,8 @@ a:hover {
 }
 
 a.nom {
+  background:  #e81c4f;
+  color: white;
   font-size: 3em;
 }
 
