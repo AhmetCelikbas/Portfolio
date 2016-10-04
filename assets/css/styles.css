@@ -27,7 +27,7 @@ h1, h2, h3, strong {
 }
 
 fieldset {
-  background: ##F5F7F9;
+  background:  white;
   padding: 1em;
   border: 2px solid #69c;
 }
@@ -61,21 +61,23 @@ a:hover {
 }
 
 #titre {
-  margin: 0 auto;
+  text-align: center;
+  color: white;
 }
 
-#content {
-  margin: 0 auto;
-  max-width: 50em;
-}
-
-a.nom {
+#titre a {
   background:  #e81c4f;
   color: white;
   font-size: 3em;
 }
 
-a:hover {
-  background:  #e81c4f;
-  color: white;
+#titre a:hover {
+  background: white;
+  color: #e81c4f;
+}
+
+
+#content {
+  margin: 0 auto;
+  max-width: 50em;
 }
