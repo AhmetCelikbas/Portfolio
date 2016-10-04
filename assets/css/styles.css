@@ -54,3 +54,7 @@ a:hover {
   background:  #e81c4f;
   color: white;
 }
+
+table.navbar {
+  margin: 0 auto;
+}
