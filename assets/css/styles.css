@@ -49,3 +49,8 @@ a {
   transition: none 200ms ease-out;
   transition-property: color, background;
 }
+
+a:hover {
+  background:  #e81c4f;
+  color: white;
+}
