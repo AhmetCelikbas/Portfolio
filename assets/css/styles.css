@@ -1,27 +1,15 @@
 @import 'https://fonts.googleapis.com/css?family=Armata';
 
-html {
-}
-
-
 body {
-
-
   background-color: #f5f7f9;
   background-image: url("../images/background.jpeg");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-
-
-
   font-family: "Helvetica", "Arial", sans-serif;
-
   line-height: 1.5;
   margin : 0 auto;
   color: #555;
-
-
 }
 
 h1, h2, h3, strong {
@@ -58,18 +46,18 @@ a:hover {
 */
 
 #header {
+  background-color: #BC3336;
+  height: 50px;
+  top:0px;
+  z-index:1;
   position: fixed;
   width: 100%;
-  background-color: #BC3336;
-  height: 30px;
-  top:0px;
-  padding: 10px;
-  z-index:1;
 }
 
 #logo {
   float: left;
-  margin: 0 auto;
+  height:30px;
+  padding:10px;
 }
 
 #logo a {
@@ -84,7 +72,7 @@ a:hover {
 
 #navbar {
   float: right;
-
+  height: 50px;
 }
 
 #navbar ul {
@@ -94,10 +82,16 @@ a:hover {
 }
 
 #navbar ul li {
-  padding-left: 20px;
   float:left;
 }
+
+#navbar ul li:hover {
+  background-color: #a82b2e;
+}
+
+
 #navbar ul li a {
+    display:block;
     text-transform: uppercase;
     font-family: Armata;
     font-size: 16px;
@@ -106,6 +100,8 @@ a:hover {
     text-decoration: none;
     opacity: 0.7;
     line-height: 30px;
+    height:30px;
+    padding: 10px 20px 10px 20px;
 }
 
 #navbar ul li a:hover {
