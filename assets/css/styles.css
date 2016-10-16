@@ -8,6 +8,7 @@ body {
   background-size: cover;
   font-family: "Helvetica", "Arial", sans-serif;
   line-height: 1.5;
+  font-size: 1em;
   margin : 0 auto;
   color: #555;
 }
@@ -25,25 +26,6 @@ fieldset {
 hr {
   border: 1px solid #e81c4f;
 }
-/*
-a {
-  color: #e81c4f;
-  border: 1px solid #e81c4f;
-  border-radius: 290486px;
-  font-size: 0.6em;
-  letter-spacing: 0.2em;
-  padding: 1em 2em;
-  text-transform: uppercase;
-  text-decoration: none;
-  transition: none 200ms ease-out;
-  transition-property: color, background;
-}
-
-a:hover {
-  background:  #e81c4f;
-  color: white;
-}
-*/
 
 #header {
   background-color: #BC3336;
@@ -83,6 +65,8 @@ a:hover {
 
 #navbar ul li {
   float:left;
+  -webkit-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
 }
 
 #navbar ul li:hover {
@@ -112,14 +96,40 @@ a:hover {
 #container {
   z-index:0;
   margin: 0 auto;
-  margin-top:60px;
-  max-width: 70em;
-  background-color: white;
+  padding-top:70px;
   opacity:0.97;
-  padding: 10px;
   border-radius: 10px;
 }
 
-#contenu {
+.contenu {
   margin: 0 auto;
+  max-width: 70em;
+  background-color: white;
+  padding: 11px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.contenu .boutonArrondi {
+  color: #BC3336;
+  border: 1px solid #BC3336;
+  border-radius: 290486px;
+  font-size: 0.6em;
+  letter-spacing: 0.2em;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: none 200ms ease-out;
+  transition-property: color, background;
+}
+
+.contenu .boutonArrondi:hover {
+  background:  #BC3336;
+  color: white;
+}
+
+
+@media screen and (min-width: 600px)
+{
+
 }
