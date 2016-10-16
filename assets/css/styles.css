@@ -29,18 +29,20 @@ hr {
 
 #header {
   background-color: #BC3336;
-  height: 240px;
+  height: 230px;
   top:0px;
   z-index:1;
   width: 100%;
 }
 
 #logo {
-  height:70px;
+  height:80px;
 }
 
 #logo:hover {
   background-color: #a82b2e;
+  -webkit-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
 }
 
 #logo a {
@@ -128,11 +130,47 @@ hr {
   color: white;
 }
 
-
-@media screen and (min-width: 800px)
+@media screen and (min-width: 600px) and (max-width: 900px)
 {
+  /* Responsive pour les un affichage dont la largeur dépasse 600px (ex : une tablette en orientation portrait ou téléphone en orientation paysage ...) */
+  #logo a {
+    text-align: center;
+    line-height: 80px;
+  }
 
+}
 
+@media screen and (min-width: 900px)
+{
+  /* Responsive pour les un affichage dont la largeur dépasse 800px (ex : une tablette en orientation paysage ou un PC..) */
 
+  #header {
+    height: 50px;
+    position: fixed;
+  }
+
+  #logo {
+    float: left;
+    height:50px;
+  }
+
+  #navbar {
+    float: right;
+    height: 50px;
+  }
+
+  #navbar ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0 auto;
+  }
+
+  #navbar ul li {
+    float:left;
+  }
+
+  #container {
+    padding-top:70px;
+  }
 
 }
