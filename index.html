@@ -19,9 +19,9 @@
     </div>
     <div id="navbar">
       <ul>
-        <li><a href="#apropos">À propos</a></li>
-        <li><a href="#mesrealisations">Réalisations</a></li>
-        <li><a href="#mecontacter">Contact</a></li>
+        <li><a id="btn_apropos" href="#apropos">À propos</a></li>
+        <li><a id="btn_mesrealisations" href="#mesrealisations">Réalisations</a></li>
+        <li><a id="btn_mecontacter" href="#mecontacter">Contact</a></li>
       </ul>
     </div>
   </div>
@@ -92,6 +92,26 @@
 
       </div>
   </div>
+
+  <script>
+    $("#btn_apropos").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#apropos").offset().top - 80
+        }, 1000);
+    });
+
+    $("#btn_mesrealisations").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#mesrealisations").offset().top
+        }, 1000);
+    });
+
+    $("#btn_mecontacter").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#mecontacter").offset().top
+        }, 1000);
+    });
+  </script>
 
   </body>
 </html>
