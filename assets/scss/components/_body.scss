@@ -1,13 +1,12 @@
 
 body {
-  background-color: #f5f7f9;
+  background-color: $body_background-color;
   background-image: url("../images/background.jpeg");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: "Helvetica", "Arial", sans-serif;
   line-height: 1.5;
   font-size: 1em;
   margin : 0 auto;
-  color: #555;
+  color: $body_color;
 }
