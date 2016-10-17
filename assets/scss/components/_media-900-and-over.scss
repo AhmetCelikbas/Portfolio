@@ -15,18 +15,18 @@
   #navbar {
     float: right;
     height: 50px;
-  }
 
-  #navbar ul {
-    list-style: none;
-    padding: 0px;
-    margin: 0 auto;
-  }
+    ul {
+      list-style: none;
+      padding: 0px;
+      margin: 0 auto;
 
-  #navbar ul li {
-    float:left;
+      li {
+        float:left;
+      }
+    }
   }
-
+  
   #container {
     padding-top:70px;
   }

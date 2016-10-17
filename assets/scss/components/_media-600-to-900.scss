@@ -1,8 +1,10 @@
 @media screen and (min-width: 600px) and (max-width: 900px)
 {
   /* Responsive pour les un affichage dont la largeur dépasse 600px (ex : une tablette en orientation portrait ou téléphone en orientation paysage ...) */
-  #logo a {
+  #logo {
+    a {
     text-align: center;
     line-height: 80px;
+    }
   }
 }

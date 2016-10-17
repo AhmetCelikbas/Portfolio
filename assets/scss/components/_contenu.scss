@@ -5,42 +5,42 @@
   padding: 11px;
   border-radius: 10px;
   margin-bottom: 30px;
-}
 
-.contenu .boutonArrondi {
-  color: $bordeau;
-  border: 1px solid $bordeau;
-  font-size: 0.6em;
-  letter-spacing: 0.2em;
-  padding: 1em 2em;
-  text-transform: uppercase;
-  text-decoration: none;
-  transition: none 200ms ease-out;
-  transition-property: color, background;
-}
+  .boutonArrondi {
+    color: $bordeau;
+    border: 1px solid $bordeau;
+    font-size: 0.6em;
+    letter-spacing: 0.2em;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 200ms ease-out;
+    transition-property: color, background;
 
-.contenu .boutonArrondi:hover {
-  background:  $bordeau;
-  color: $white;
-}
+    &:hover {
+      background:  $bordeau;
+      color: $white;
+    }
+  }
 
-.titreContenu {
-  color: $darkGrey;
-  font-size: 1.5em;
-  font-weight: bold;
-}
+  .titreContenu {
+    color: $darkGrey;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
 
+  fieldset {
+    background:  $white;
+    padding: 1em;
+    border: 2px solid $bordeau;
+  }
 
-fieldset {
-  background:  $white;
-  padding: 1em;
-  border: 2px solid $bordeau;
-}
+  h3 {
+    color: $darkGrey;
+  }
 
-h3 {
-  color: $darkGrey;
-}
+  hr {
+    border: 1px solid $bordeau;
+  }
 
-hr {
-  border: 1px solid $bordeau;
 }
