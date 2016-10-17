@@ -27,6 +27,7 @@ hr {
   border: 1px solid #e81c4f;
 }
 
+
 #header {
   background-color: #BC3336;
   height: 230px;
@@ -129,6 +130,16 @@ hr {
   background:  #BC3336;
   color: white;
 }
+
+.titreContenu {
+  color: #333;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+
+
+
 
 @media screen and (min-width: 600px) and (max-width: 900px)
 {
