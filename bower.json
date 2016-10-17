@@ -1,0 +1,20 @@
+{
+  "name": "portefolio",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Ahmet Celikbas"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Keylan117/Portefolio",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
