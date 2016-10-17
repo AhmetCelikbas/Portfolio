@@ -1,12 +1,13 @@
 
 body {
-  background-color: $body_background-color;
+  background-color: $white;
   background-image: url("../images/background.jpeg");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: "Helvetica", "Arial", sans-serif;
   line-height: 1.5;
   font-size: 1em;
   margin : 0 auto;
-  color: $body_color;
+  color: $lightGrey;
 }

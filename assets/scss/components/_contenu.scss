@@ -1,16 +1,15 @@
 .contenu {
   margin: 0 auto;
   max-width: 70em;
-  background-color: white;
+  background-color: $white;
   padding: 11px;
   border-radius: 10px;
   margin-bottom: 30px;
 }
 
 .contenu .boutonArrondi {
-  color: #BC3336;
-  border: 1px solid #BC3336;
-  border-radius: 290486px;
+  color: $bordeau;
+  border: 1px solid $bordeau;
   font-size: 0.6em;
   letter-spacing: 0.2em;
   padding: 1em 2em;
@@ -21,19 +20,27 @@
 }
 
 .contenu .boutonArrondi:hover {
-  background:  #BC3336;
-  color: white;
+  background:  $bordeau;
+  color: $white;
 }
 
 .titreContenu {
-  color: #333;
+  color: $darkGrey;
   font-size: 1.5em;
   font-weight: bold;
 }
 
 
 fieldset {
-  background:  white;
+  background:  $white;
   padding: 1em;
-  border: 2px solid #e81c4f;
+  border: 2px solid $bordeau;
+}
+
+h3 {
+  color: $darkGrey;
+}
+
+hr {
+  border: 1px solid $bordeau;
 }

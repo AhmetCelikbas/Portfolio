@@ -3,7 +3,7 @@
 }
 
 #logo:hover {
-  background-color: #a82b2e;
+  background-color: $bordeauHover;
   -webkit-transition: all 300ms ease-out;
   transition: all 300ms ease-out;
 }
@@ -15,7 +15,7 @@
   font-family: Armata;
   font-size: 20px;
   font-weight: normal;
-  color: #fff;
+  color: $white;
   text-decoration: none;
   opacity: 1;
 }
