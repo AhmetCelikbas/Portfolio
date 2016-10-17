@@ -1,0 +1,34 @@
+@media screen and (min-width: 900px)
+{
+  /* Responsive pour les un affichage dont la largeur dépasse 800px (ex : une tablette en orientation paysage ou un PC..) */
+
+  #header {
+    height: 50px;
+    position: fixed;
+  }
+
+  #logo {
+    float: left;
+    height:50px;
+  }
+
+  #navbar {
+    float: right;
+    height: 50px;
+  }
+
+  #navbar ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0 auto;
+  }
+
+  #navbar ul li {
+    float:left;
+  }
+
+  #container {
+    padding-top:70px;
+  }
+
+}

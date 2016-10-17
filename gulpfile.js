@@ -1,7 +1,8 @@
 // including plugins
 var gulp = require('gulp'),
     sass = require('gulp-sass'),
-    minifyCss = require("gulp-minify-css");
+    minifyCss = require("gulp-minify-css"),
+    rename = require('gulp-rename');
 
 
 // task
@@ -18,5 +19,14 @@ gulp.task('compile-sass', function () {
 gulp.task('minify-css', function () {
     gulp.src('./assets/css/styles.css') // path to your file
     .pipe(minifyCss())
-    .pipe(gulp.dest('path/to/destination'));
+    .pipe(rename({ suffix: '.min' }))
+    .pipe(gulp.dest('./assets/css/'));
+});
+
+
+
+
+// Default Watch task
+gulp.task('default',function() {
+    gulp.watch('sass/styles.scss',['compile-sass' , 'minify-css']);
 });

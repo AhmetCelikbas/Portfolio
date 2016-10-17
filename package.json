@@ -8,7 +8,8 @@
     "gulp-sass": "^2.3.2"
   },
   "devDependencies": {
-    "gulp-minify-css": "^1.2.4"
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
