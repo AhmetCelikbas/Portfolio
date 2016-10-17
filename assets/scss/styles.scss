@@ -1,0 +1,187 @@
+@import 'https://fonts.googleapis.com/css?family=Armata';
+
+body {
+  background-color: #f5f7f9;
+  background-image: url("../images/background.jpeg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  font-size: 1em;
+  margin : 0 auto;
+  color: #555;
+}
+
+h1, h2, h3, strong {
+  color: #333;
+}
+
+fieldset {
+  background:  white;
+  padding: 1em;
+  border: 2px solid #e81c4f;
+}
+
+hr {
+  border: 1px solid #e81c4f;
+}
+
+
+#header {
+  background-color: #BC3336;
+  height: 230px;
+  top:0px;
+  z-index:1;
+  width: 100%;
+}
+
+#logo {
+  height:80px;
+}
+
+#logo:hover {
+  background-color: #a82b2e;
+  -webkit-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+}
+
+#logo a {
+  display:block;
+  padding:10px;
+  text-transform: uppercase;
+  font-family: Armata;
+  font-size: 20px;
+  font-weight: normal;
+  color: #fff;
+  text-decoration: none;
+  opacity: 1;
+}
+
+#navbar {
+  height: 150px;
+}
+
+#navbar ul {
+  margin: 0 auto;
+}
+
+#navbar ul li {
+  -webkit-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  color: #fff;
+}
+
+#navbar ul li:hover {
+  background-color: #a82b2e;
+}
+
+
+#navbar ul li a {
+    display:block;
+    text-transform: uppercase;
+    font-family: Armata;
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.7;
+    line-height: 30px;
+    height:30px;
+    padding: 10px 20px 10px 20px;
+}
+
+#navbar ul li a:hover {
+
+    opacity: 1;
+}
+
+#container {
+  z-index:0;
+  margin: 0 auto;
+  padding-top:30px;
+  opacity:0.97;
+  border-radius: 10px;
+}
+
+.contenu {
+  margin: 0 auto;
+  max-width: 70em;
+  background-color: white;
+  padding: 11px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.contenu .boutonArrondi {
+  color: #BC3336;
+  border: 1px solid #BC3336;
+  border-radius: 290486px;
+  font-size: 0.6em;
+  letter-spacing: 0.2em;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: none 200ms ease-out;
+  transition-property: color, background;
+}
+
+.contenu .boutonArrondi:hover {
+  background:  #BC3336;
+  color: white;
+}
+
+.titreContenu {
+  color: #333;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+
+
+
+
+@media screen and (min-width: 600px) and (max-width: 900px)
+{
+  /* Responsive pour les un affichage dont la largeur dépasse 600px (ex : une tablette en orientation portrait ou téléphone en orientation paysage ...) */
+  #logo a {
+    text-align: center;
+    line-height: 80px;
+  }
+
+}
+
+@media screen and (min-width: 900px)
+{
+  /* Responsive pour les un affichage dont la largeur dépasse 800px (ex : une tablette en orientation paysage ou un PC..) */
+
+  #header {
+    height: 50px;
+    position: fixed;
+  }
+
+  #logo {
+    float: left;
+    height:50px;
+  }
+
+  #navbar {
+    float: right;
+    height: 50px;
+  }
+
+  #navbar ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0 auto;
+  }
+
+  #navbar ul li {
+    float:left;
+  }
+
+  #container {
+    padding-top:70px;
+  }
+
+}
