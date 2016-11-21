@@ -33,9 +33,10 @@ To get the dependencies, you have to download and install Node.JS on your system
 
 
 ##Installation of the packages :
-When you installed Node.JS, navigate to the directory of the website and install the packages by typing the following commands :
 
-**Warning :** If you already have Node.JS installed on your system, you may need to execute the command "npm cache clean" before installing the dependencies.
+**Warning :** If you already had Node.JS installed on your system, you may need to execute the command "npm cache clean" before installing the dependencies.
+
+When you installed Node.JS, navigate to the directory of the website and install the packages by typing the following commands :
 
 ```bash
 $ npm install
