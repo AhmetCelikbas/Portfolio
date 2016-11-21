@@ -42,6 +42,7 @@ $ npm install
 	The website require JQuery for scrolling animations and we will use Bower to get this library. 
   Use npm again to install bower
   
+ **Warning :** You may need to run this command as root/administrator
 ```bash
 $ npm install -g bower
 ```
