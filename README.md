@@ -7,7 +7,7 @@ This project is a personal website built without template and hosted on http://a
 
 - You have to clone the repository on a folder somewhere on your computer :
 ```bash
-$ git clone https://github.com/Keylan117/Portfolio.git
+$ git clone https://github.com/AhmetCelikbas/Portfolio.git
 ```
 		
 ##Installation of the dependencies : 
